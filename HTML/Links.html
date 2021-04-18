@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title> Field Set of Legends</title>
+        <link rel="stylesheet"  type= "text/css" href = "form.css">
+    </head>
+    <body>
+        <h1><center>Donation Form</center></h1>
+        <form name= "donationform" id="donationform">
+            <fieldset id = "contact">
+                    <legend>Contact Information</legend>
+                        <label class ="blocklabel">
+                            First Name<span>*</span>
+                                <input type ="text" id = "firstname" name = "firstname"/>
+                        </label>
+                        <label class ="blocklabel">
+                            Last Name<span>*</span>
+                                <input type ="text" id = "lastname" name = "lastname"/>
+                        </label>
+                        <label class ="blocklabel">
+                            Phone<span>*</span>
+                                <input type ="text" id = "phone" name = "phone"/>
+                        </label>
+                        <label class ="blocklabel">
+                            Street<span>*</span>
+                                <input type ="text" id = "street" name = "street"/>     
+                        </label>
+            </fieldset>
+        <fieldset id ="donation">
+            <legend>Donation Infomation</legend>
+        </fieldset>
+        <fieldset id ="feedback">
+            <label>
+            <legend>Feedback</legend>
+                <input type = "checkbox" id = "volunteer" name = "volunteer"/>
+                ayaw ko sumama mga gago 
+        </label>
+        </fieldset>
+        </form>
+
+        <form name "RadioButton" id= "RadioButton">
+            <fieldset>
+                <legend>Department Affiliation</legend>
+                    <label for + "compsci">Computer Science</label>
+                        <input type = "radio" name = "department" id = "compsci" value = "cs"/> 
+                        <label for + "infosys">Information Systems</label>
+                        <input type = "radio" checked = "checked" name = "department" id = "infosys" value = "is"/> 
+                        <label for + "infotech">Information Technology</label>
+                        <input type = "radio"  name = "department" id = "infotech" value = "it"/> 
+                    
+            </fieldset>
+        </form>
+        <form name = "electionForm" id = "electionform">
+            <label for = "candidate" name = "candidate"></label>
+                <select id = "candidate" name = "candidate">
+                    <optgroup label = "Tangina mo">
+                        <option>Tangina mo din</option>
+                        <option>BOBO KA</option>
+                        <option>putangiina mo gago </option>
+                    </optgroup> 
+                </select>
+        </form>
+        <fieldset id = "comments">
+            <label for = "comments" class = "blocklabel"> Comments</label>
+            <textarea id = "comments" name = "comments" rows= "5" cols="50"></textarea>
+        </fieldset>
+    </body>
+</html>
