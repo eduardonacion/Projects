@@ -1,0 +1,195 @@
+/*INDEX*/
+body { 
+    background-color:whitesmoke;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: auto;
+}
+header{
+    background-color: #2a2c2d;
+    width: 100%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+header nav ul{
+    padding: 0;
+    margin: 0 0 0 100px;
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    float:right;
+    list-style: none;
+    padding: 0 10px;
+}
+header nav ul li a{
+    width: auto;
+    display: block;
+    text-align: right;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    line-height: 30px;
+    color:whitesmoke;
+    text-shadow: 2px 2px 8px grey;
+}
+header nav ul li:hover a {
+    color: #464b52;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+.brand h2{
+    width:auto;
+    font-family:  sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 8px grey;
+    margin-top: 0%;
+    padding-left: 20%;
+}
+.logo img{
+    height:50px;
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: #464b52;
+}
+/*index*/
+.index-banner{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(100vh - 100px);
+    background-image: url(img/chrome2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:table;
+}
+.pictures h2{
+    background-color:#2a2c2d;
+	text-align: center;
+	color: white;
+	font-family: sans-serif ;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+    text-shadow: 2px 2px 8px grey;
+}
+.container {
+    max-width: 1200px;
+    margin:auto;
+    background: whitesmoke;
+    overflow:auto;
+}
+.gallery{
+    margin: 2px;
+    float: left;
+    width:390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*INDEX*/
+/*MEMBERSHIPS*/
+body { 
+    background-color:whitesmoke;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: auto;
+    padding-left: 0%;
+}
+.greetings{
+    padding-top: auto;
+    text-align: center;
+    padding-right: 5%;
+    color:whitesmoke;
+    margin-top: auto;
+    }
+.greetingstop{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-top: 0px;
+    text-align: center;
+    background-color: #464b52;
+    color:whitesmoke;
+}
+.greetings img{
+    height:50px;
+    position:absolute;
+    box-shadow: #464b52;
+    padding-top: 10px;
+}
+.forms h1{
+    text-align: center;
+    width:100%;
+}
+.clubform{
+    width: 77%;
+    margin-left: 3%;
+    float:left; 
+}
+legend{
+    font-weight: 900;
+}
+.memberform{
+    width:17%;
+    float:right;
+    margin-right: 3%;
+}
+.applicationform{
+    width:77%;
+    float:left;
+    margin-left: 3%;
+}
+.region{
+    width:17%;
+    float:right;
+    margin-right: 3%;
+}
+.payment{
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    float:left;
+    margin-bottom: 5%;
+}
+/*MEMBERSHIP*/
+/*SUBMIT*/
+.submittext{
+
+    background-color:#2a2c2d;
+	text-align: center;
+	color: white;
+	font-family: sans-serif ;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 0px;
+    line-height: 50px;
+    text-shadow: 2px 2px 8px grey;
+}

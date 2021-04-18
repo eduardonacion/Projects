@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>  The Nacionals </title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel= "stylesheet" href= "style.css">
+    </head>
+    <body>
+       <header>
+        
+           <div class= "logo" >
+                <a href= "home.html"><img src = "img/logo.png"></a> 
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="collection.html">Collection</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    
+                </ul>
+                <section class = "index-brand">
+                    <div class = "brand">
+                        <h2> The Nacionals</h2>
+                    </div>
+                </section>
+            </nav>
+        </header>
+       <main>
+        <div class="greetings"> <img src="img/logo.png"> </div>
+        <section class="greetingstop">
+          <h2>Becoma a The Nacional Member </h2>
+          <p class="greetingstext">Create your The Nacional Member profile and get first access to the very best of The Nacional updates about sneakers, inspiration and community.</p>
+        </section>
+        <div class ="forms">
+            <h1> CLUB MEMBERSHIP FORM </h1>
+        </div>
+        <div class="clubform">  
+            <form name="clubinfo" id="clubinfo">
+              <fieldset id="contact">
+                <legend>Club Information</legend>
+                    <p class= "contactText" >This section is completed by a officer</p>
+                <label class="blocklabel"> 
+                    Club Number
+                    <input type = "text" id ="clubnumber" name = "clubnumber" />
+                    Club Name
+                    <input type = "text" id ="clubname" name = "clubname" />
+                    Club City
+                    <input type = "text" id ="clubcity" name = "clubcity" />
+                </label>
+              </fieldset>
+            </form>
+          </div>
+          <div class="memberform">
+            <form name="memberform" id="memberform">
+              <fieldset id="membershipType">
+                <legend>Membership Type</legend>
+                <p>
+                  <label class="blocklabel">
+                    New
+                    <input type="radio" name="CheckboxGroup1" value="radio" id="CheckboxGroup1_0">
+                    </label>
+                  <br>
+                  <label>
+                    Premium
+                    <input type="radio" name="CheckboxGroup1" value="radio" id="CheckboxGroup1_1">
+                    </label>
+                  <br>
+                  <label>
+                      Renew
+                    <input type="radio" name="CheckboxGroup1" value="radio" id="CheckboxGroup1_2">
+                    </label>
+                  <br>
+                </p>
+              </fieldset>
+            </form>
+          </div>
+          <div class="applicationform">
+            <form name="appform" id="appform">
+              <fieldset id="appinfo">
+                <legend>Applicant Information</legend>
+                    <p class= "contactText" >This section is completed by the applicant</p>
+                <label class="blocklabel"> 
+                    SURNAME
+                    <input type = "text" id ="surname" name = "surname" />
+                    First Name
+                    <input type = "text" id ="firstname" name = "firstname" />
+                    Middle Initial 
+                    <input type = "text" id ="middleinitial" name = "middleinitial" />
+                    Email 
+                    <input type = "text" id ="email" name = "email" />
+                    <br>
+                    Do you want to receive weekly updates?
+                    <br>
+                    YES
+                    <input type="radio" name="CheckboxGroup1" value="radio" id="yes">
+                    NO
+                    <input type="radio" name="CheckboxGroup1" value="radio" id="no">
+                  <br>
+                </label>
+              </fieldset>
+            </form>
+          </div>
+        <div class= "region">
+        <form name = "regionselection" id = "regionselection">
+            <fieldset id="regionsel">
+                <legend> Region Selection</legend>
+            <p class = "regiontext">Please selection the region you are in</p>
+            <label for = "country" name = "country"></label>
+                <select id = "countryselect" name = "countryselect">
+                    <optgroup label = "Region">
+                        <option>Asia</option>
+                        <option>Europe</option>
+                        <option>Australia</option>
+                        <option>Africa</option>
+                        <option>Antartica</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                    </optgroup> 
+                </select>
+            </fieldset>
+        </form>
+        </div>
+        <div class="payment">
+          <form name="payments" id="payments">
+            <fieldset id="paymentsinfo">
+              <legend>Membership fees</legend>
+              <p style="font-weight: 200"> <span class="bolderrr">Basic membership fee 49PHP/month: </span>Cater free signal for trading. <span class="bolderrr">Pro membership fee 499PHP/month: </span> Basic membership + include to the FB group. <span class="bolderrr"> Advanced membership fee 2999PHP/month: </span> Pro membership + Latest updates on what is happening on the cryptocurrency world. <span class="bolderrr">Godlike membership fee 4999PHP/month: </span>Advanced membership + Unlimited mentorship program and personal updates from the club.</p>
+              <p style="text-align: left; font-weight: normal; font-size: 15px"> This section is completed by the applicant with the help of a club officer. Dues and fees are payable in advance and are not refundable or transferable</p>
+              <label for="fees">Do you Agree with all the charges that will be charge to your account:</label>
+              <label class="blocklabel">
+                <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="Checkbox1">
+                YES
+                <label class="blocklabel">
+                  <input type="checkbox" name="CheckboxGroup1" value="checkbox" id="Checkbox1">
+                  NO
+              </select>
+              <p style="text-align: left; font-weight: normal; font-size: 15px"> When you press submit, you will be taken to the payment method.</p>
+            </fieldset>
+          </form>
+          <form action="submitbutton.html">
+            <label class="form_text">
+                   <input type = "submit" id ="submitbutton" name = "submitbutton"/></label>
+                   <input type="reset">
+            </form>
+        </div>
+      </div>
+       </main>
+       <footer>
+
+       </footer>
+    </body>
+</html>
